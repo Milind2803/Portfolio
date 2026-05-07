@@ -362,7 +362,7 @@
 
       <div class="stats-row">
         <div class="stat-item">
-          <span class="stat-num">1+</span>
+          <span class="stat-num">2+</span>
           <span class="stat-label">Years Experience</span>
         </div>
         <div class="stat-item">
@@ -490,17 +490,20 @@
     <div class="timeline">
 
       <div class="timeline-item fade-up">
-        <div class="tl-period">Jul 2024 — Dec 2024</div>
+        <div class="tl-period">Apr 2024 — Present · 2 Years</div>
         <div class="tl-role">DevOps Engineer</div>
-        <div class="tl-company">// IBM · Full-time · Internship</div>
+        <div class="tl-company">// Ants IT Solutions Pvt Ltd · Hyderabad · Full-time</div>
         <ul class="tl-bullets">
-          <li>Designed and maintained CI/CD pipelines using Jenkins and GitHub Actions, reducing manual deployment effort by 60%</li>
-          <li>Containerized microservices with Docker and deployed them to Kubernetes clusters, improving environment consistency across dev and production</li>
-          <li>Authored Terraform modules to provision and manage cloud infrastructure on AWS, ensuring reproducible and version-controlled environments</li>
-          <li>Configured Ansible playbooks for automated server provisioning and configuration management across Linux hosts</li>
-          <li>Set up centralized monitoring dashboards in Grafana with Prometheus metrics and Datadog APM for real-time service health visibility</li>
-          <li>Collaborated with development teams to implement GitOps workflows using ArgoCD, enabling declarative deployments and faster rollbacks</li>
-          <li>Assisted in migrating on-prem workloads to AWS, contributing to infrastructure cost optimization and improved scalability</li>
+          <li>Managed and optimized Kubernetes (EKS) deployments for 10+ microservices, improving release consistency and reducing rollout failures by 40% across dev, staging, and production environments</li>
+          <li>Automated AWS infrastructure provisioning using Terraform modules across dev/staging/prod environments, eliminating 100% of manual provisioning errors and reducing setup time by 60%</li>
+          <li>Built and maintained Jenkins CI/CD pipelines for automated build, test, and release workflows, cutting deployment time by 50% and reducing manual intervention across the delivery lifecycle</li>
+          <li>Deployed and configured a centralized observability stack using Datadog and AWS CloudWatch with 50+ custom dashboards and SLA-based alerting, enabling proactive incident detection and faster resolution</li>
+          <li>Integrated SonarQube into CI pipelines for automated code quality gates and vulnerability scanning, achieving OWASP compliance across 20+ services and reducing security defects in production</li>
+          <li>Configured and managed AWS ECR container registry with automated image lifecycle policies, reducing unused image storage costs by 28% and improving registry hygiene</li>
+          <li>Implemented blue-green and canary deployment strategies using Kubernetes and AWS ALB, achieving zero-downtime production releases and improving overall deployment confidence</li>
+          <li>Secured application secrets using AWS Secrets Manager and environment-variable-based configuration, eliminating hardcoded credentials across all repositories and improving compliance posture</li>
+          <li>Collaborated with development, QA, and product teams across Agile sprints to streamline CI/CD workflows, resolve environment issues, and accelerate feature delivery cycles</li>
+          <li>Managed HashiCorp Vault for centralized secrets management, eliminating hardcoded credentials across all application repositories</li>
         </ul>
       </div>
 
@@ -645,8 +648,8 @@
   }, { threshold: 0.1 });
   document.querySelectorAll('.fade-up').forEach(el => observer.observe(el));
 
-  // Uptime counter (from Jul 2024)
-  const start = new Date('2024-07-01');
+  // Uptime counter (from Apr 2024)
+  const start = new Date('2024-04-01');
   function updateUptime() {
     const diff = Date.now() - start;
     const days = Math.floor(diff / 86400000);
